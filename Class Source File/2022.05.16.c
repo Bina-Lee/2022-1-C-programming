@@ -53,7 +53,7 @@ int main() {
 	char* pc = &c;
 	*pc = 'B';
 
-	char* p[] = "helloword"; //주소, helloworld가 저장된 곳의 주소
+	char* p = "helloword"; //주소, helloworld가 저장된 곳의 주소
 	//p는 "helloword"가 저장된 곳의 시작 주소
 	printf("%s\n", p); // 배열의 시작점은 포인터로 사용가능
 	//배열 이름은 포인터로 사용할 수 있기때문에 포인터 변수의 유무와 상관없이 printf %s를 사용할 수 있다

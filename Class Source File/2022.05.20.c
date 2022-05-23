@@ -14,7 +14,7 @@ int main() {
 	printf("%p\n", &a);
 	printf("%d\n", *pa);
 	printf("%p\n", pa);
-	printf("%p\n", &pa);
+	printf("%prkRk\n", &pa);
 
 	// a = 10
 	// &a=
